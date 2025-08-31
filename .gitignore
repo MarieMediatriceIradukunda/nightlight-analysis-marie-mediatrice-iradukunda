@@ -1,2 +1,4 @@
 # Entire Data folder 
 data/
+# Python virtual environment
+.venv-ntl
