@@ -1,8 +1,11 @@
 # Ignore everything in data/ folder
 data/*
 
-# But do not ignore csv files
-!data/*.csv
+# Do not ignore ntl subfolder (so CSVs inside can be tracked)
+!data/ntl/
+# Do not ignore csv files anywhere in data/ (including subfolders)
+!data/**/*.csv
+
 # Python virtual environment
 .venv-ntl
 
