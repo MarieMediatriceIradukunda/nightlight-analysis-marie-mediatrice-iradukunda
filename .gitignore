@@ -1,4 +1,9 @@
-# Entire Data folder 
-data/
+# Ignore everything in data/ folder
+data/*
+
+# But do not ignore csv files
+!data/*.csv
 # Python virtual environment
 .venv-ntl
+
+__pycache__/
